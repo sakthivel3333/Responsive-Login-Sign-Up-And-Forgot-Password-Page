@@ -1,0 +1,117 @@
+/* signup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .signup-brand {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .login-link {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .login-link a {
+    color: #e40b70;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .signup-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #e40b70;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: #d3b75a;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .signup-container {
+      padding: 10px;
+    }
+    
+    .signup-form {
+      padding: 20px;
+      width: 100%;
+    }
+    
+    .signup-brand {
+      font-size: 30px;
+    }
+    
+    .heading {
+      font-size: 20px;
+    }
+  }
+  
